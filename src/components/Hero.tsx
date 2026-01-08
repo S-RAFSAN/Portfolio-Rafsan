@@ -39,7 +39,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="space-y-6 animate-fade-in">
           <div className="inline-block">
-            <span className="px-4 py-2 bg-primary/20 text-primary rounded-full text-sm font-semibold backdrop-blur-sm">
+            <span className="px-6 py-3 bg-primary/20 text-primary rounded-full text-xl md:text-2xl font-semibold backdrop-blur-sm">
               👋 Welcome to My Portfolio
             </span>
           </div>

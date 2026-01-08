@@ -20,9 +20,9 @@ export const personalInfo = {
     clients: { label: 'Companies Worked', value: '2+', percentage: 85 },
   },
   socialLinks: {
-    github: 'https://github.com', // Update with your GitHub profile
-    linkedin: 'https://linkedin.com', // Update with your LinkedIn profile
-    facebook: 'https://facebook.com', // Update with your Facebook profile
+    github: 'https://github.com/S-RAFSAN', // Update with your GitHub profile
+    linkedin: 'https://www.linkedin.com/in/sayduzzaman-rafsan/', // Update with your LinkedIn profile
+    facebook: 'https://www.facebook.com/rafsan.sayduzzaman/', // Update with your Facebook profile
     instagram: 'https://instagram.com',
   },
 };
