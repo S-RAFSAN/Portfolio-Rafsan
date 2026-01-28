@@ -10,7 +10,7 @@ export const personalInfo = {
   location: 'Mirpur, Dhaka, Bangladesh',
   about: [
     "Motivated Full-Stack Developer specializing in Next.js and TypeScript, leveraging AI integration and a data-driven approach to build scalable, high-impact web solutions with clean, reliable code.",
-    "I have experience building full-stack web applications including restaurant management systems, parcel delivery platforms, and large-scale university management systems. My expertise spans modern technologies like React, Next.js, Node.js, MongoDB, PostgreSQL, and Docker.",
+    "I have experience building full-stack web applications including restaurant management systems, parcel delivery platforms, and large-scale university management systems. My expertise spans modern technologies like React, Next.js, Node.js, MongoDB, PostgreSQL etc.",
     "Passionate about problem-solving, system design thinking, and delivering quality-focused solutions. I enjoy mentoring, continuous learning, and staying at the forefront of web development technologies.",
   ],
   tags: ['Problem Solving', 'System Design Thinking', 'AI-Driven Development'],
@@ -86,7 +86,6 @@ export const techStack = [
   'MongoDB',
   'Prisma',
   'DBMS',
-  'Docker',
   'Nginx',
   'Linux/Unix',
   'Git',

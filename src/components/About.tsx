@@ -17,7 +17,7 @@ const About = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="gap-12 items-center">
             <div className="space-y-6">
               <div className="text-lg leading-relaxed text-base-content/80">
                 {personalInfo.about.map((paragraph, index) => (
@@ -45,48 +45,6 @@ const About = () => {
                   );
                 })}
               </div>
-            </div>
-
-            <div className="relative">
-              <div className="relative z-10 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl p-8 backdrop-blur-sm border border-primary/30">
-                <div className="space-y-6">
-                  {Object.entries(personalInfo.stats).map(([key, stat], index) => {
-                    const gradients = [
-                      'from-primary to-secondary',
-                      'from-secondary to-accent',
-                      'from-accent to-primary',
-                    ];
-                    const colorClasses = [
-                      'text-primary',
-                      'text-secondary',
-                      'text-accent',
-                    ];
-                    const gradient = gradients[index % gradients.length];
-                    const colorClass = colorClasses[index % colorClasses.length];
-                    
-                    return (
-                      <div key={key}>
-                        <div className="flex items-center justify-between">
-                          <span className="text-base-content/70">{stat.label}</span>
-                          <span className={`text-2xl font-bold ${colorClass}`}>
-                            {stat.value}
-                          </span>
-                        </div>
-                        <div className="w-full bg-base-300 rounded-full h-2">
-                          <div
-                            className={`bg-gradient-to-r ${gradient} h-2 rounded-full transition-all duration-1000`}
-                            style={{ width: `${stat.percentage}%` }}
-                          />
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-              
-              {/* Decorative elements */}
-              <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/20 rounded-full blur-xl" />
-              <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-secondary/20 rounded-full blur-xl" />
             </div>
           </div>
         </div>

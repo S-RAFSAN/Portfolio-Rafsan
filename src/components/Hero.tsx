@@ -31,7 +31,7 @@ const Hero = () => {
           background: `radial-gradient(circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(59, 130, 246, 0.5), transparent 50%)`,
         }}
       />
-      
+
       {/* Floating orbs */}
       <div className="absolute top-20 left-20 w-72 h-72 bg-primary/30 rounded-full blur-3xl animate-pulse" />
       <div className="absolute bottom-20 right-20 w-96 h-96 bg-secondary/30 rounded-full blur-3xl animate-pulse delay-1000" />
@@ -43,7 +43,7 @@ const Hero = () => {
               👋 Welcome to My Portfolio
             </span>
           </div>
-          
+
           <h1 className="text-6xl md:text-8xl font-bold mb-4">
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
               {personalInfo.firstName}
@@ -53,15 +53,15 @@ const Hero = () => {
               {personalInfo.lastName}
             </span>
           </h1>
-          
+
           <p className="text-xl md:text-2xl text-base-content/80 max-w-2xl mx-auto">
             {personalInfo.title}
           </p>
-          
+
           <p className="text-lg text-base-content/60 max-w-xl mx-auto">
             {personalInfo.subtitle}
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <button
               onClick={() => scrollToSection('projects')}
