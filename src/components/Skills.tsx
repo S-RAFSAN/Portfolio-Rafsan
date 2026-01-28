@@ -1,12 +1,12 @@
 import { skills, techStack } from '../data/portfolio';
 
-const Skills = () => {
-  const skillCategories = [
-    skills.frontend,
-    skills.backend,
-    skills.tools,
-  ];
+const skillCategories = [
+  skills.frontend,
+  skills.backend,
+  skills.tools,
+];
 
+const Skills = () => {
   return (
     <section
       id="skills"
@@ -23,9 +23,9 @@ const Skills = () => {
           </p>
         </div>
 
-        {/* Additional tech stack showcase */}
-        <div className="mt-16 max-w-4xl mx-auto">
+        
 
+        <div className="mt-16 max-w-4xl mx-auto">
           <div className="flex flex-wrap justify-center gap-4">
             {techStack.map((tech, index) => (
               <div
