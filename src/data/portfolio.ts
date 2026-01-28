@@ -60,7 +60,6 @@ export const skills = {
     icon: '🛠️',
     skills: [
       { name: 'Git & Version Control', level: 90 },
-      { name: 'Docker', level: 75 },
       { name: 'Nginx', level: 70 },
       { name: 'Linux/Unix', level: 75 },
       { name: 'WordPress', level: 80 },
@@ -97,10 +96,10 @@ export const projects = [
   {
     title: 'PH: University Management System',
     description:
-      'Designed and developed a large-scale university web system using Next.js, TypeScript, Redux, Node.js, Express, PostgreSQL, Prisma, and SQL, with Docker and Nginx supporting scalable deployment. Implemented AI-assisted features, advanced business logic, and role-based modules for students, faculty, and administration.',
-    technologies: ['Next.js', 'TypeScript', 'Redux', 'Node.js', 'Express', 'PostgreSQL', 'Prisma', 'Docker', 'Nginx'],
+      'Designed and developed a large-scale university web system using Next.js, TypeScript, Redux, Node.js, Express, PostgreSQL, Prisma, and SQL, with Nginx supporting scalable deployment. Implemented AI-assisted features, advanced business logic, and role-based modules for students, faculty, and administration.',
+    technologies: ['Next.js', 'TypeScript', 'Redux', 'Node.js', 'Express', 'PostgreSQL', 'Prisma', 'Nginx'],
     image: '🎓',
-    link: '#',
+    link: 'https://ph-client.vercel.app',
     github: '#',
   },
   {
@@ -109,7 +108,7 @@ export const projects = [
       'Built a full-stack Restaurant Management System using React, Next.js, Node.js, Express.js, MongoDB, and Firebase, with Tailwind CSS for a responsive and modern UI. Implemented core features including order management, menu control, user authentication, and real-time data handling.',
     technologies: ['React', 'Next.js', 'Node.js', 'Express.js', 'MongoDB', 'Firebase', 'Tailwind CSS'],
     image: '🍽️',
-    link: '#',
+    link: 'https://bristo-restaurant.vercel.app/',
     github: '#',
   },
   {
@@ -118,16 +117,16 @@ export const projects = [
       'Built a full-stack, customer-facing delivery application with React, Next.js, Node.js, Express.js, MongoDB, Firebase, and Tailwind CSS, prioritizing speed, usability, and mobile-first design. Focused on delivery workflow orchestration, including order assignment, status progression, and real-time notifications.',
     technologies: ['React', 'Next.js', 'Node.js', 'Express.js', 'MongoDB', 'Firebase', 'Tailwind CSS'],
     image: '📦',
-    link: '#',
+    link: 'https://zap-shift-client-delta.vercel.app/',
     github: '#',
   },
   {
     title: 'ADN DIGINET Platform',
     description:
       'Built and maintained ADN DIGINET as a full-stack web platform, delivering scalable architecture, optimized performance, and CMS-driven content management for non-technical users. Developed during internship at ADN TELECOM.',
-    technologies: ['Full-Stack', 'CMS', 'Performance Optimization'],
+    technologies: ['Full-Stack', 'CMS','Next.js','Node.js','Express.js','MongoDB','Tailwind CSS'],
     image: '🌐',
-    link: '#',
+    link: 'https://adndiginet.com/',
     github: '#',
   },
   {
@@ -136,7 +135,7 @@ export const projects = [
       'Developed the BAF Shaheen College Kurmitola system using a modern full-stack approach, enabling role-based teacher and student modules for secure result, grade, and academic record management. Built during internship at ADN TELECOM.',
     technologies: ['Full-Stack', 'Role-Based Access', 'Academic Management'],
     image: '🏫',
-    link: '#',
+    link: 'https://www.bafsk.edu.bd/',
     github: '#',
   },
   {
@@ -145,7 +144,7 @@ export const projects = [
       'Developed UDOOTECH, a corporate digital services and solutions website using WordPress, focusing on responsive design, service presentation, and performance optimization. Built during tenure at UDOO TECHNOLOGY.',
     technologies: ['WordPress', 'Responsive Design', 'Performance Optimization'],
     image: '💼',
-    link: '#',
+    link: 'https://udootech.com/',
     github: '#',
   },
   {
@@ -154,7 +153,7 @@ export const projects = [
       'Built UDOO CLOTHING from the root level as a complete e-commerce website, gaining hands-on experience in company setup, branding, product management, and business workflow implementation. Developed during tenure at UDOO TECHNOLOGY.',
     technologies: ['WordPress', 'E-Commerce', 'Product Management'],
     image: '🛍️',
-    link: '#',
+    link: 'https://udooclothing.com/',
     github: '#',
   },
   {
@@ -163,7 +162,7 @@ export const projects = [
       'Designed and managed UDOO Research & Training Center, a training-focused WordPress platform. Also worked as a mentor, teaching Computer Fundamentals and MS Office courses. Developed during tenure at UDOO TECHNOLOGY.',
     technologies: ['WordPress', 'Training Platform', 'Mentoring'],
     image: '📚',
-    link: '#',
+    link: 'https://udoortc.com/',
     github: '#',
   },
 ];
