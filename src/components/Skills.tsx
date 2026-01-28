@@ -1,10 +1,6 @@
-import { skills, techStack } from '../data/portfolio';
+import { techStack } from '../data/portfolio';
 
-const skillCategories = [
-  skills.frontend,
-  skills.backend,
-  skills.tools,
-];
+
 
 const Skills = () => {
   return (
