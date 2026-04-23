@@ -17,8 +17,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "baseUrl": ".", // <-- Add this line
-    "paths": { // <-- And this section
+    "ignoreDeprecations": "6.0",
+    "baseUrl": ".",
+    "paths": {
       "@/*": [
         "./*"
       ]
