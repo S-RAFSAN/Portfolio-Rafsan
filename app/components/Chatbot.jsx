@@ -50,7 +50,7 @@ export default function Chatbot({ onClose }) {
         ...prev,
         {
           role: "assistant",
-          content: `### ⚡ System Override! \n\nMy apologies! My connection to **Umaar's digital brain** is recalibrating. \n\n👉 **[Message Umaar on LinkedIn](https://www.linkedin.com/in/umaar-ahmed-a3b252266/)**`,
+          content: `### ⚡ System Override! \n\nMy apologies! My connection to **Sayduzzaman Rafsan's digital brain** is recalibrating. \n\n👉 **[Message Sayduzzaman Rafsan on LinkedIn](https://www.linkedin.com/in/sayduzzaman-rafsan/)**`,
         },
       ]);
     } finally {
@@ -67,7 +67,7 @@ export default function Chatbot({ onClose }) {
           <Bot size={28} />
           <div>
             <h3 className="font-bold text-base md:text-lg leading-tight tracking-tight">
-              Umaar's Assistant
+              Sayduzzaman Rafsan's Assistant
             </h3>
             <p className="text-[10px] opacity-90">
               Powered by Grok 2.0 • Online
@@ -88,7 +88,7 @@ export default function Chatbot({ onClose }) {
           <div className="text-center text-gray-500 mt-10 md:mt-6 px-6">
             <Bot size={48} className="mx-auto mb-3 opacity-20" />
             <p className="font-semibold text-sm">
-              Hello! I'm Umaar's AI Assistant
+              Hello! I'm Sayduzzaman Rafsan's AI Assistant
             </p>
             <p className="text-xs mt-2">
               Ask about projects, skills, or freelance availability.

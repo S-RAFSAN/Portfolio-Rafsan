@@ -7,12 +7,12 @@ export default function VisitorCounter() {
 
   useEffect(() => {
     // Pehli baar load hone pe +1 karega aur number fetch karega
-    fetch('https://api.countapi.xyz/hit/umaar-ahmed-portfolio-2025/visitors')
+    fetch('https://api.countapi.xyz/hit/sayduzzaman-rafsan-portfolio-2026/visitors')
       .then(res => res.json())
       .then(data => {
         setCount(new Intl.NumberFormat('en-US').format(data.value));
       })
-      .catch(() => setCount('1,478'));
+      .catch(() => setCount('1,000'));
   }, []); // sirf ek baar chalega
 
   return <>{count}</>;

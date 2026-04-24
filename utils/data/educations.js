@@ -2,7 +2,7 @@ export const educations = [
   {
     id: 1,
     title: "Bachelor of Science (CSE)",
-    duration: "2022 - Present",
+    duration: "2020 - 2025",
     institution: "AIUB University",
   },
   {

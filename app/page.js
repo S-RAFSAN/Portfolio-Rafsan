@@ -65,9 +65,9 @@ export default async function Home() {
       {/* Certificates component ke andar pehle se <section id="certificates"> hai */}
       <Certificates />
 
-      <section id="blog">
+      {/* <section id="blog">
         <Blog blogs={blogs} />
-      </section>
+      </section> */}
 
       <section id="contact">
         <ContactSection />

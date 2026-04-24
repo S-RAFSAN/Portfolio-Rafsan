@@ -12,7 +12,7 @@ export const experiences = [
   },
   {
     id: 2,
-    title: "Web  Developer",
+    title: "Web Developer",
     company: "UDOO TECH - Full Time",
     duration: "(Aug 2025 - Jan 2026)",
     description: [

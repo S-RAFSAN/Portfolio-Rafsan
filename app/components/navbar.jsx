@@ -46,6 +46,8 @@ export default function Navbar() {
     { name: "EXPERIENCE", href: "/#experience" },
     { name: "EDUCATION", href: "/#education" },
     { name: "PROJECTS", href: "/#projects" },
+    { name: "COURSES", href: "/#certificates" },
+    { name: "CONTACT", href: "/#contact" },
   ];
 
   const moreLinks = [
@@ -73,14 +75,14 @@ export default function Navbar() {
             : "bg-transparent"
         }`}
       >
-        <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 md:px-10 py-5 md:py-6">
+        <nav className="max-w-7xl mx-auto flex items-center justify-center px-6 md:px-10 py-5 md:py-6">
           {/* Logo */}
-          <Link
+          {/* <Link
             href="/#home"
             className="text-transparent bg-clip-text bg-gradient-to-r from-[#16f2b3] to-[#4b6fff] text-2xl md:text-3xl font-extrabold tracking-wide hover:opacity-90 transition-all duration-300"
           >
             Sayduzzaman Rafsan
-          </Link>
+          </Link> */}
 
           {/* Desktop Menu */}
           <ul className="hidden md:flex items-center space-x-6 lg:space-x-8">
@@ -110,20 +112,20 @@ export default function Navbar() {
             })}
 
             {/* Dropdown Menu component with isMoreActive prop */}
-            <DropdownMenu
+            {/* <DropdownMenu
               moreLinks={moreLinks}
               checkActive={checkActive}
               isMoreActive={isMoreActive}
-            />
+            /> */}
           </ul>
 
           {/* Hire Me Button */}
-          <Link
+          {/* <Link
             href="/#contact"
             className="hidden md:inline-block px-6 py-2.5 rounded-full text-sm font-semibold text-black bg-gradient-to-r from-[#16f2b3] to-[#4b6fff] hover:opacity-90 transition-all duration-300 shadow-[0_0_20px_rgba(22,242,179,0.4)] hover:shadow-[0_0_25px_rgba(22,242,179,0.6)]"
           >
             Hire Me
-          </Link>
+          </Link> */}
 
           {/* Mobile Menu */}
           <MobileMenu

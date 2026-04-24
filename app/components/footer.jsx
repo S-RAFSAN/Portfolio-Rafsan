@@ -18,7 +18,7 @@ export default function Footer() {
               © Developer Portfolio by{" "}
               <Link
                 target="_blank"
-                href="https://www.linkedin.com/in/umaar-ahmed-a3b252266/"
+                href="https://www.linkedin.com/in/sayduzzaman-rafsan/"
                 className="text-[#12d8a0] hover:underline font-semibold"
               >
                 Sayduzzaman Rafsan
@@ -33,10 +33,6 @@ export default function Footer() {
                 Tailwind CSS
               </span>
               .
-            </p>
-
-            <p className="text-[11px] text-gray-500">
-              Version 1.0.3 • Last Update on Jan 2026
             </p>
           </div>
 
@@ -76,7 +72,7 @@ export default function Footer() {
             <div className="flex items-center gap-4">
               {/* Star Button - Yellow with Border */}
               <Link
-                href="https://github.com/UmaarAhmed"
+                href="https://github.com/S-RAFSAN"
                 target="_blank"
                 className="group flex items-center gap-2 px-4 py-2 rounded-lg border border-yellow-500/30 bg-yellow-500/5 text-gray-300 hover:text-yellow-500 hover:border-yellow-500 transition-all"
               >
@@ -86,7 +82,7 @@ export default function Footer() {
 
               {/* Fork Button - Cyan with Border */}
               <Link
-                href="https://github.com/UmaarAhmed?tab=repositories"
+                href="https://github.com/S-RAFSAN?tab=repositories"
                 target="_blank"
                 className="group flex items-center gap-2 px-4 py-2 rounded-lg border border-cyan-500/30 bg-cyan-500/5 text-gray-300 hover:text-cyan-400 hover:border-cyan-500 transition-all"
               >
@@ -99,7 +95,7 @@ export default function Footer() {
               <p className="text-[12px] text-gray-400 leading-relaxed">
                 Built in{" "}
                 <span className="text-green-400 font-medium border-b border-green-400/20">
-                  Pakistan
+                  Bangladesh
                 </span>{" "}
                 • Serving worldwide 🌍
               </p>
@@ -110,7 +106,7 @@ export default function Footer() {
         {/* Bottom Line */}
         <div className="mt-10 pt-4 border-t border-white/5 text-center">
           <p className="text-[11px] text-gray-500 tracking-[0.2em] uppercase">
-            Handcrafted by Umaar • Keep creating, keep inspiring.
+            Handcrafted by Sayduzzaman Rafsan • Keep creating, keep inspiring.
           </p>
         </div>
       </div>

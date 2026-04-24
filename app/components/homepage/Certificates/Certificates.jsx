@@ -3,30 +3,32 @@ import React from "react";
 
 // Example certificates data
 const certificates = [
-
-    {
-    title: "Introduction to Generative AI Studio – Simplilearn",
-    issuer: "Simplilearn (SkillUp by Simplilearn)",
-    year: "2025",
-    image: "/certi.PNG",
-    link: "https://simpli-web.app.link/e/cFMfbujN2Xb",
-    description: "Gained hands-on experience with Google Cloud’s Generative AI Studio, exploring techniques for text, image, and code generation using advanced foundation models. Developed a practical understanding of prompt engineering and AI-driven content creation workflows."
+  {
+    title: "Complete Web Development Course With Programming Hero",
+    issuer: "Programming Hero",
+    year: "",
+    image: "/course-2.png",
+    link: "https://web.programming-hero.com/course-details",
+    description:
+      "Completed the Complete Web Development Course With Programming Hero. This course helped me strengthen my understanding of web development concepts and essential for building efficient and scalable applications.",
   },
   {
-    title: "Core Java Development Certified Professional",
-    issuer: "Great Learning Academy",
-    year: "2024",
-    image: "/java certificate.jpeg",
-    link: "https://www.mygreatlearning.com/certificate/LIAWVLST?referrer_code=GLVNKJLTJMIKW",
-    description: "Hi Everyone, I’ve just completed the “Core Java Programming” course with Great Learning Academy. This course helped me strengthen my understanding of Java fundamentals, object-oriented programming, and core development concepts essential for building efficient and scalable applications."
+    title: "Next Level Web Development Course With Programming Hero",
+    issuer: "Programming Hero",
+    year: "",
+    image: "/course-3.jpg",
+    link: "https://next.programming-hero.com/",
+    description:
+      "Completed the Next Level Web Development Course With Programming Hero. This course helped me strengthen my understanding of web development concepts and essential for building efficient and scalable applications.",
   },
   {
-    title: "Object Oriented Programming (OOP) in Java",
-    issuer: "MindLuster",
-    year: "2024",
-    image: "/oop.jpeg",
-    link: "https://www.mindluster.com/student/certificate/15876143308",
-    description: "Successfully completed the Object Oriented Programming (OOP) in Java course with MindLuster, gaining practical knowledge of key concepts such as inheritance, polymorphism, encapsulation, and abstraction in Java development."
+    title: "Full Stack Web Development with JavaScript (MERN)",
+    issuer: "Ostad",
+    year: "",
+    image: "/course-1.jpg",
+    link: "https://ostad.app/course/mern",
+    description:
+      "Completed the Full Stack Web Development with JavaScript (MERN) Course With Ostad. This course helped me strengthen my understanding of web development concepts and essential for building efficient and scalable applications.",
   },
 ];
 
@@ -43,7 +45,7 @@ function Certificates() {
       <div className="max-w-6xl mx-auto px-6 relative z-10">
         <h2 className="text-4xl font-extrabold text-center mb-14 tracking-wide">
           <span className="bg-gradient-to-r from-[#16f2b3] to-[#4ad7ff] bg-clip-text text-transparent">
-            Certificates & Achievements
+            COURSES & TRAININGS
           </span>
         </h2>
 
@@ -64,12 +66,10 @@ function Certificates() {
                 alt={cert.title}
                 className="w-full h-46 object-contain mb-4 rounded-md transition-transform duration-500 group-hover:scale-105"
               />
-              
-              <h3
-  className="text-lg font-semibold mb-1 text-[#16f2b3] group-hover:text-[#4ad7ff] transition-colors duration-300"
->
-  {cert.title}
-</h3>
+
+              <h3 className="text-lg font-semibold mb-1 text-[#16f2b3] group-hover:text-[#4ad7ff] transition-colors duration-300">
+                {cert.title}
+              </h3>
 
               <p className="text-xs text-gray-400 mb-2">
                 {cert.issuer} • {cert.year}
