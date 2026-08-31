@@ -2,7 +2,7 @@
 // @flow strict
 
 import { personalData } from "@/utils/data/personal-data";
-import { motion, useScroll, useTransform } from "framer-motion"; 
+import { motion } from "framer-motion"; 
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -12,7 +12,7 @@ import { RiContactsFill } from "react-icons/ri";
 import { SiDevdotto } from "react-icons/si";
 
 const roles = [
-  "Full-Stack Software Developer",
+  "Full-Stack Web Application Developer",
   "React & Next.js Expert",
   "Web Developer", 
   "Technical Problem Solver",

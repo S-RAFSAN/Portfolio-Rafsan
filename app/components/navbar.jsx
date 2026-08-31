@@ -14,17 +14,22 @@ export default function Navbar() {
       setScrolled(scrollY > 30);
 
       const sections = document.querySelectorAll("section[id]");
-      let currentSection = "";
+      const isAtPageBottom =
+        window.innerHeight + scrollY >= document.documentElement.scrollHeight - 2;
+      let currentSection = "home";
 
-      sections.forEach((section) => {
-        const sectionTop = section.offsetTop - 160;
-        const sectionHeight = section.offsetHeight;
-        const sectionId = section.getAttribute("id");
+      if (isAtPageBottom) {
+        currentSection = "contact";
+      } else {
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop - 160;
+          const sectionId = section.getAttribute("id");
 
-        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
-          currentSection = sectionId;
-        }
-      });
+          if (scrollY >= sectionTop) {
+            currentSection = sectionId;
+          }
+        });
+      }
 
       if (scrollY < 100) {
         setActiveSection("home");

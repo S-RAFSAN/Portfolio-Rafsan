@@ -26,6 +26,6 @@ technical excellence and expert communication are required.
   leetcode: "https://leetcode.com/u/rafsan123/",
   devUsername: "rafsan",
   resume:
-    "https://drive.google.com/file/d/1YmyhYZzpUzMP71Yx-e-os2nN4rUIEdHX/view?usp=sharing",
+    "https://drive.google.com/file/d/1KvJB4MuIYVBit584SNj_sxFGWqURwCxQ/view?usp=sharing",
 };
 
