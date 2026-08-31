@@ -31,3 +31,6 @@ dist-ssr
 
 # CV file (optional - remove if you want to commit it)
 *.docx
+
+.vercel
+.env*.local
